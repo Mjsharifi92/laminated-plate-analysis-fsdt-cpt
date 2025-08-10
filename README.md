@@ -12,7 +12,6 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 
 
 ---
-
 ## Benchmark Comparisons & Explanations
 
 ### 1) Through-thickness displacement $\bar{u}(z)$ and normal stress $\bar{\sigma}_x(z)$
@@ -23,7 +22,7 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 
 **What to look for**
 - $\bar{u}(z)$ is **linear** within each ply (consistent with CLT/FSDT kinematics).
-- $\bar{\sigma}_x(z)$ is **piecewise** through thickness; slope changes at ply interfaces because each ply has different stiffness.
+- $\bar{\sigma}_x(z)$ is **piecewise** through thickness; slope changes at ply interfaces because plies have different stiffnesses.
 - $(0/90)^3$ shows more slope changes than $(0/90)$ due to additional interfaces.
 
 **Figure 2 — Present study (this code)**  
@@ -90,19 +89,20 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 
 ---
 
-### Table B — $(a/h)=10$: $ \bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$ (sinusoidal load)
+### Table B — $(a/h)=10$: $\bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$ (sinusoidal load)
 
-| n | Method   | $ \bar{u}(h/2) $ | $ \bar{\sigma}_x(-h/2) $ | $ \bar{\sigma}_{xy}(-h/2) $ | $ \bar{\sigma}_{xz}(-h/4) $ |
-|:-:|:---------|:----------------:|:------------------------:|:---------------------------:|:---------------------------:|
-| 1 | FSDT     |      −0.2457     |         −0.7157          |           0.0525            |            0.2728           |
-|   | Present  |      −0.2457     |         −0.7157          |           0.0525            |            0.2728           |
-| 3 | FSDT     |      −0.0839     |         −0.4881          |           0.0228            |            0.1091           |
-|   | Present  |      −0.0839     |         −0.4881          |           0.0228            |            0.1091           |
+| n | Method   | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
+|:-:|:---------|:---------------:|:----------------------:|:-------------------------:|:-------------------------:|
+| 1 | FSDT     |     -0.2457     |        -0.7157         |          0.0525           |           0.2728          |
+|   | Present  |     -0.2457     |        -0.7157         |          0.0525           |           0.2728          |
+| 3 | FSDT     |     -0.0839     |        -0.4881         |          0.0228           |           0.1091          |
+|   | Present  |     -0.0839     |        -0.4881         |          0.0228           |           0.1091          |
 
 **Explanation**
 - **Identity check:** “Present” matches FSDT **exactly** for both $n=1$ and $n=3$ → stress recovery & nondimensionalization are correct.
 - **Ply-count effect:** From $n=1$ to $n=3$, $|\bar{u}(h/2)|$, $|\bar{\sigma}_x(-h/2)|$, and $|\bar{\sigma}_{xz}(-h/4)|$ **decrease** — more plies $\Rightarrow$ higher stiffness.
 - **Signs:** Negative $\bar{u}(h/2)$ and $\bar{\sigma}_x(-h/2)$ follow the bending sign convention (compression on one face, tension on the other).
+
 
 ---
 
