@@ -47,7 +47,7 @@ Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-p
 *Variation of non-dimensional deflection with $(a/h)$ for antisymmetric $(0/90)$.*
 
 **What to look for**
-- For **thick plates** (small $(a/h)$), FSDT predicts **larger** deflection than CPT because CPT ignores shear.
+For thick plates (small $a/h$), FSDT predicts a larger deflection than CPT because CPT neglects transverse shear deformation.
 - As $(a/h)$ increases, FSDT **converges** to CPT; shear effects vanish in the thin-plate limit.
 
 **Figure 4 — Present study (this code)**  
