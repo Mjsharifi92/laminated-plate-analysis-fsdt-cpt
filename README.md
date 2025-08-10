@@ -100,13 +100,6 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 |   | Present |    -0.0839     |        -0.4881         |          0.0228           |           0.1091          |
 
 
-| n | Method  | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
-|:-:|:--------|:--------------:|:----------------------:|:-------------------------:|:-------------------------:|
-| 1 | FSDT    |    -0.2457     |        -0.7157         |          0.0525           |           0.2728          |
-|   | Present |    -0.2457     |        -0.7157         |          0.0525           |           0.2728          |
-| 3 | FSDT    |    -0.0839     |        -0.4881         |          0.0228           |           0.1091          |
-|   | Present |    -0.0839     |        -0.4881         |          0.0228           |           0.1091          |
-
 **Explanation**
 - **Identity check:** “Present” matches FSDT exactly for both $n=1$ and $n=3$ → stress recovery and nondimensionalization are correct.
 - **Ply-count effect:** From $n=1$ to $n=3$, $\left|\bar{u}(h/2)\right|$, $\left|\bar{\sigma}_x(-h/2)\right|$, and $\left|\bar{\sigma}_{xz}(-h/4)\right|$ decrease — more plies $\Rightarrow$ higher stiffness.
