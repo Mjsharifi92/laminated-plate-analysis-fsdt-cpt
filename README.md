@@ -93,7 +93,8 @@ Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-p
 - **Rule of thumb:** Use **FSDT** for thick/moderately thick plates; **CPT** is fine for large $(a/h)$.
 
 ---
-### Table B — (a/h) = 10 (sinusoidal load) **Variables:** $\bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$
+### Table B — (a/h) = 10 (sinusoidal load) 
+**Variables:** $\bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$
 
 | n | Method  | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
 |:-:|:--------|:--------------:|:----------------------:|:-------------------------:|:-------------------------:|
