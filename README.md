@@ -15,7 +15,7 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 
 ## Benchmark Comparisons 
 
-### 1) Through-thickness displacement \(\bar{u}(z)\) and normal stress \(\bar{\sigma}_x(z)\)
+### 1) Through-thickness displacement $\\bar{u}(z)$ and normal stress $\\bar{\\sigma}_x(z)$
 
 **Figure 1 — Benchmark (literature)**  
 ![Figure 1 – Benchmark Displacement & Stress](1.png)
@@ -58,8 +58,7 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 |     | **Present FSDT**| 1.0653 | 0.4635 |
 
 **Table B — Dimensionless in-plane displacement and stresses for (0/90) at \(a/h=10\) (sinusoidal load)**
-
-| n | Method   | \( \bar{u}(h/2) \) | \( \bar{\sigma}_x(-h/2) \) | \( \bar{\sigma}_{xy}(-h/2) \) | \( \bar{\sigma}_{xz}(-h/4) \) |
+| n |  Method |     $\\bar{u}(h/2)$ |   $\\bar{\\sigma}_x(-h/2)$ |   $\\bar{\\sigma}_{xy}(-h/2)$ | $\\bar{\\sigma}_{xz}(-h/4)$   |
 |:-:|:---------|:------------------:|:--------------------------:|:-----------------------------:|:-----------------------------:|
 | 1 | FSDT     |   −0.2457          | −0.7157                    | 0.0525                        | 0.2728                        |
 |   | Present  |   −0.2457          | −0.7157                    | 0.0525                        | 0.2728                        |
