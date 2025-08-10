@@ -107,7 +107,11 @@ Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-p
 
 **Explanation**
 - **Identity check:** “Present” matches FSDT exactly for both $n=1$ and $n=3$ → stress recovery and nondimensionalization are correct.
--**Ply-count effect:** From $n=1$ to $n=3$, $\lvert\bar{u}(h/2)\rvert$, $\lvert\bar{\sigma}_x(-h/2)\rvert$, and $\lvert\bar{\sigma}_{xz}(-h/4)\rvert$ decrease — more plies $\Rightarrow$ higher stiffness.
+-**Ply-count effect:** From n = 1 to n = 3, the magnitudes of
+- in-plane displacement at the top surface (z = h/2),
+- normal stress in x at the bottom surface (z = −h/2), and
+- transverse shear stress xz at quarter thickness (z = −h/4)
+all decrease — more plies ⇒ higher bending stiffness.
 - **Signs:** Negative $\bar{u}(h/2)$ and $\bar{\sigma}_x(-h/2)$ follow the bending sign convention (compression on one face, tension on the other).
 
 ---
