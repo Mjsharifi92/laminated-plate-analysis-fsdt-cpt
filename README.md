@@ -2,6 +2,13 @@
 
 ## Abstract
 This repository provides a reproducible implementation of **Classical Plate Theory (CPT)** and **First-Order Shear Deformation Theory (FSDT)** for laminated composite plates. The notebook computes laminate stiffness matrices (A, B, D and transverse shear), deflections, and through-thickness stress/displacement fields for simply supported antisymmetric cross-ply laminates. Results are validated against benchmark solutions reported in the literature, confirming that CPT is accurate for very slender plates (large \(a/h\)), while FSDT is required for thick to moderately thick laminates where shear effects are non-negligible.
+## Abstract
+This open-source repository provides a reproducible **Python/Jupyter** implementation for the bending and **free-vibration** analysis of laminated composite plates using **Classical Plate Theory (CPT)** and **First-Order Shear Deformation Theory (FSDT)**. The workflow assembles lamina properties into transformed reduced stiffnesses (\bar{Q}), builds the laminate **A–B–D** matrices, and solves simply supported antisymmetric cross-ply and angle-ply configurations under **sinusoidal** and **uniform** transverse loading. For bending, the code evaluates **non-dimensional deflection**, through-thickness **in-plane displacement** and **stress** resultants; for dynamics, it forms the Navier-type eigenvalue problem and computes **natural frequencies** (fundamental and higher), enabling comparison between shear-deformable (FSDT) and thin-plate (CPT) predictions across thickness ratios **(a/h)**.
+
+All routines are pure Python and rely on standard scientific libraries (NumPy/SciPy/Matplotlib), making the analysis transparent and easy to extend—for example to alternative layups, material systems, or post-processing of **mode shapes**. The notebook is validated against benchmark solutions in the laminated-plate literature, showing close agreement for both **deflection** and **eigenfrequency** results and highlighting the expected behavior: CPT is accurate in the thin-plate limit, whereas FSDT is required for **moderately thick** and **thick** laminates where **transverse shear deformation** is non-negligible. Figures and tables included in the README replicate reference trends and provide a quick visual check of the implementation.
+
+**Keywords:** laminated composites, cross-ply, angle-ply, CPT, FSDT, A-B-D matrices, transverse shear, deflection, stresses, free vibration, natural frequencies, eigenvalue analysis, Python, Jupyter, SciPy, solid mechanics.
+
 
 ## Methods (brief)
 - Orthotropic lamina properties are assembled into reduced stiffnesses \(\mathbf{Q}\) and transformed \(\bar{\mathbf{Q}}\).
