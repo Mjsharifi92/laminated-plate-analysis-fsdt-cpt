@@ -94,8 +94,12 @@ Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-p
 
 ---
 ### Table B — (a/h) = 10 (sinusoidal load) 
-**Variables:**  
-\[\bar{u}(h/2),\ \bar{\sigma}_x(-h/2),\ \bar{\sigma}_{xy}(-h/2),\ \bar{\sigma}_{xz}(-h/4)\]
+**Variables:**
+- \(\bar{u}(h/2)\)
+- \(\bar{\sigma}_x(-h/2)\)
+- \(\bar{\sigma}_{xy}(-h/2)\)
+- \(\bar{\sigma}_{xz}(-h/4)\)
+
 
 | n | Method  | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
 |:-:|:--------|:--------------:|:----------------------:|:-------------------------:|:-------------------------:|
