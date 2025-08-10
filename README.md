@@ -22,7 +22,7 @@ jupyter notebook notebooks/Composite_Final_Code_17_April.ipynb
 
 ---
 
-## Benchmark Comparisons (add images as 1.png–4.png in this folder)
+## Benchmark Comparisons 
 
 ### 1) Through-thickness displacement \(\bar{u}(z)\) and normal stress \(\bar{\sigma}_x(z)\)
 
