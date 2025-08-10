@@ -6,9 +6,7 @@ This repository provides a reproducible implementation of **Classical Plate Theo
 ## Methods (brief)
 - Orthotropic lamina properties are assembled into reduced stiffnesses \(\mathbf{Q}\) and transformed \(\bar{\mathbf{Q}}\).
 - Laminate stiffnesses are obtained by
-$$
-[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz
-$$
+$$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 - In FSDT, transverse displacement is partitioned \(w(x,y)=w_b(x,y)+w_s(x,y)\), leading to four mid-plane unknowns \((u,v,w_b,w_s)\) and a shear-resultant law with correction factor \(k=5/6\).
 - Closed-form (Navier-type) solutions are used for simply supported plates under sinusoidal or uniform loading; the notebook reproduces the comparison tables and figures.
 
