@@ -97,7 +97,6 @@ Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-p
 **Variables:** in-plane displacement at top surface (z = h/2); normal stress in x at bottom surface (z = -h/2); in-plane shear stress (xy) at bottom surface (z = -h/2); transverse shear stress (xz) at quarter thickness (z = -h/4)
 
 
-
 | n | Method  | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
 |:-:|:--------|:--------------:|:----------------------:|:-------------------------:|:-------------------------:|
 | 1 | FSDT    |    -0.2457     |        -0.7157         |          0.0525           |           0.2728          |
