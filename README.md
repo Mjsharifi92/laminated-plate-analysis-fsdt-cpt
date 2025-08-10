@@ -12,13 +12,6 @@ This repository provides a reproducible implementation of **Classical Plate Theo
 - In FSDT, transverse displacement is partitioned \(w(x,y)=w_b(x,y)+w_s(x,y)\), leading to four mid-plane unknowns \((u,v,w_b,w_s)\) and a shear-resultant law with correction factor \(k=5/6\).
 - Closed-form (Navier-type) solutions are used for simply supported plates under sinusoidal or uniform loading; the notebook reproduces the comparison tables and figures.
 
-## How to run
-```bash
-python -m venv .venv        # optional
-# Windows: .venv\Scripts\activate   Mac/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook notebooks/Composite_Final_Code_17_April.ipynb
-```
 
 ---
 
