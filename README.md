@@ -22,7 +22,8 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 
 **Figure 1 — Benchmark (literature)**  
 ![Figure 1 – Benchmark Displacement & Stress](1.png)  
-*Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-ply laminates (0/90) and $(0/90)^3$ under sinusoidal load; reproduced here for academic comparison.*
+Through-thickness $\bar{u}(z)$ and $\bar{\sigma}_x(z)$ for antisymmetric cross-ply laminates (0/90) and $(0/90)^3$ under sinusoidal load; reproduced here for academic comparison.
+
 
 **What to look for**
 - $\bar{u}(z)$ is **linear** within each ply (consistent with CLT/FSDT kinematics).
