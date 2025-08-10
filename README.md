@@ -88,7 +88,7 @@ $$[A_{ij}, B_{ij}, D_{ij}] = \int_{-h/2}^{h/2} \bar{Q}_{ij}(1, z, z^2)\,dz$$
 - **Rule of thumb:** Use **FSDT** for thick/moderately thick plates; **CPT** is fine for large $(a/h)$.
 
 ---
-### Table B — $(a/h)=10$: $\bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$ (sinusoidal load)
+### Table B — $(a/h)=10$: $ \bar{u}(h/2)$, $\bar{\sigma}_x(-h/2)$, $\bar{\sigma}_{xy}(-h/2)$, $\bar{\sigma}_{xz}(-h/4)$ (sinusoidal load)
 
 | n | Method  | $\bar{u}(h/2)$ | $\bar{\sigma}_x(-h/2)$ | $\bar{\sigma}_{xy}(-h/2)$ | $\bar{\sigma}_{xz}(-h/4)$ |
 |:-:|:--------|:--------------:|:----------------------:|:-------------------------:|:-------------------------:|
