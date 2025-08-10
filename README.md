@@ -124,6 +124,28 @@ all decrease — more plies ⇒ higher bending stiffness.
 ## License
 MIT (see `LICENSE`).
 
+---
+
+## CPT vs FSDT — when to use which (bending, buckling, free vibration)
+
+**Classical Plate Theory (CPT / Kirchhoff–Love)** and **First-Order Shear Deformation Theory (FSDT / Mindlin–Reissner)** are the two most common models for **laminated composite plates** in mechanics, civil, and aerospace engineering.
+
+- **CPT (Kirchhoff–Love):** assumes normals to the mid-surface remain normal after deformation → **no transverse shear deformation**. Accurate for **thin plates** (large thickness ratio **\(a/h\)**). Tends to **underestimate deflection** and **overestimate buckling loads / natural frequencies** for thick and moderately thick laminates.
+- **FSDT (Mindlin–Reissner):** includes **transverse shear strain** via independent rotations. Requires a **shear correction factor** (typically \(k=5/6\)). Accurate for **moderately thick and thick plates**; reduces to CPT trends as \(a/h \to \infty\).
+
+### Rule of thumb (engineering use)
+- **Use CPT** when the plate is **slender** (often **\(a/h \gtrsim 20\text{–}30\)**) and shear effects are negligible.  
+- **Use FSDT** when the plate is **moderately thick or thick** (smaller \(a/h\)), or when accurate **bending**, **buckling**, and **free-vibration** predictions are required.
+
+### Typical analysis scope (covered in this repo)
+- Layups: **antisymmetric cross-ply \((0/90)_n\)** and **angle-ply \((\theta/-\theta)_n\)**.
+- Loads: **sinusoidal** and **uniform** transverse pressure.
+- Quantities: **non-dimensional deflection**, through-thickness **in-plane displacement** and **stresses**, **natural frequencies** (Navier solution for simply supported edges).
+- Implementation: Python (NumPy/SciPy/Matplotlib), laminate **A–B–D matrices**, transformed reduced stiffnesses \(\bar{\mathbf{Q}}\); FSDT uses \(k=5/6\).
+
+**Keywords (search):** laminated composite plate, CPT, Kirchhoff–Love plate theory, FSDT, Mindlin–Reissner plate theory, transverse shear deformation, shear correction factor, \(a/h\) thickness ratio, plate bending, plate buckling, free vibration, natural frequency, antisymmetric cross-ply, angle-ply, A-B-D matrices, Navier solution, solid mechanics, structural mechanics, civil engineering.
+
+
 ## How to cite
 If you use this repository, please cite both this code and the underlying theory papers below.
 
